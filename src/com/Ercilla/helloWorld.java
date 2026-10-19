@@ -7,5 +7,6 @@ public class helloWorld {
         String apellido = msg.solicitarDatos("escribe tu apellido: ");
         Persona p1 = new Persona(nombre, apellido);
         msg.saludar(p1);
+        //prueba
     }
 }
