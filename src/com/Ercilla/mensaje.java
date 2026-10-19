@@ -10,8 +10,8 @@ public class mensaje {
 
     }
 
-    public void saludar(String nombre) {
-        System.out.printf("Hola %s, bienvenido a java\n", nombre);
+    public void saludar(Persona persona1) {
+        System.out.printf("Hola %s, bienvenido a java\n",persona1.getNombre()+" "+persona1.getApellido());
     }
 }
 
