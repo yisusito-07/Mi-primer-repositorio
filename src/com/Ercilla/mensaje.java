@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class mensaje {
     public String solicitarDatos (String mensaje){
+        //esta instruccion es inservible
         System.out.print(mensaje);
         Scanner sc = new Scanner(System.in);
         return sc.nextLine();
